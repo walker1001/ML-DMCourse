@@ -31,3 +31,5 @@ for topic, links in topics_links.items():
             if s is not None:
                 f.writelines(json.dumps(s))
                 f.write('\n')
+
+print("Completed")
